@@ -319,4 +319,4 @@ def validate(json_data):
     tripdf.to_csv('tripdf.csv',index=False, header=False,na_rep='None')
 
 if __name__ == "__main__":
-  main()
+  validate()
